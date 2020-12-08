@@ -1,5 +1,6 @@
 D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\FinalDemo.exe
 D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\FinalDemo.deps.json
 D:\Practice\DemoProject\FinalDemo\FinalDemo\bin\Debug\netcoreapp3.1\FinalDemo.runtimeconfig.json
@@ -46,6 +47,3 @@ D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.dl
 D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.pdb
 D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.genruntimeconfig.cache
 D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.csproj.CopyComplete
-D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.csprojAssemblyReference.cache
-D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\FinalDemo.RazorComponent.output.cache
-D:\Practice\DemoProject\FinalDemo\FinalDemo\obj\Debug\netcoreapp3.1\scopedcss\bundle\FinalDemo.styles.css

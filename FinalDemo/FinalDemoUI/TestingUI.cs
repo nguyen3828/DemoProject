@@ -11,7 +11,7 @@ namespace TestingUI
     [TestClass]
     public class MySeleniumTests
     {
-        private TestContext testContextInstance;
+        private Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContextInstance;
         private IWebDriver driver;
         private string appURL;
 
@@ -26,14 +26,30 @@ namespace TestingUI
         {
             driver.Navigate().GoToUrl(appURL);
             
-            //driver.FindElement(By.Id("sb_form_q")).SendKeys("Azure Pipelines");
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            //driver.FindElement(By.Id("sb_form_q")).SendKeys(Keys.Enter);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            //driver.FindElement(By.XPath("//ol[@id='b_results']/li/h2/a")).Click();
+            
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);           
+            //Assert.Equals(driver.FindElement(By.Id("title")).GetAttribute("textContent"), "Hello, world!");
 
-            Assert.Equals(driver.FindElement(By.Id("title")).GetAttribute("textContent"), "Hello, world!");
+            //Identify login
+            IWebElement loginLink = driver.FindElement(By.Id("loginLink"));
 
+            //operation
+            loginLink.Click();
+
+            //assert
+            var userInputBox = driver.FindElement(By.Id("UserName"));
+            var pwdInputBox = driver.FindElement(By.Name("Password"));
+            Assert.IsTrue(userInputBox.Displayed);
+         
+
+            userInputBox.SendKeys("admin");
+            pwdInputBox.SendKeys("password");
+
+            //click on the login
+            driver.FindElement(By.XPath("//input[@value='Log in']")).Submit();
+
+            var lnkEmployeeDetails = driver.FindElement(By.LinkText("Employee Details"));
+            Assert.IsTrue(lnkEmployeeDetails.Displayed);
         }
 
         public TestContext TestContext
@@ -51,8 +67,8 @@ namespace TestingUI
         [TestInitialize()]
         public void SetupTest()
         {
-            appURL = "http://localhost:5001";
-            //appURL = "https:google.ca";
+            //appURL = "http://localhost:5001";
+            appURL = "http://eaapp.somee.com/";
             string browser = "chrome";
             switch (browser)
             {
