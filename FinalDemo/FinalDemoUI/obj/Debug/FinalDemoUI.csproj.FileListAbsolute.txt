@@ -16,3 +16,4 @@ D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csproj.CoreC
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csproj.CopyComplete
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.dll
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.pdb
+D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csprojAssemblyReference.cache
