@@ -5,12 +5,11 @@ D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\FinalDemoUI.dll
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\FinalDemoUI.pdb
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\WebDriver.dll
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csprojAssemblyReference.cache
+D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\WebDriver.xml
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csproj.CoreCompileInputs.cache
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.csproj.CopyComplete
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.dll
 D:\Practice\DemoProject\FinalDemo\FinalDemoUI\obj\Debug\FinalDemoUI.pdb
-D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\WebDriver.dll
-D:\Practice\DemoProject\FinalDemo\FinalDemoUI\bin\Debug\WebDriver.xml

@@ -24,13 +24,15 @@ namespace TestingUI
         [TestCategory("Chrome")]
         public void TheBingSearchTest()
         {
-            driver.Navigate().GoToUrl(appURL + "/");
-            driver.FindElement(By.Id("sb_form_q")).SendKeys("Azure Pipelines");
+            driver.Navigate().GoToUrl(appURL);
+            
+            //driver.FindElement(By.Id("sb_form_q")).SendKeys("Azure Pipelines");
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+            //driver.FindElement(By.Id("sb_form_q")).SendKeys(Keys.Enter);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            driver.FindElement(By.Id("sb_form_q")).SendKeys(Keys.Enter);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            driver.FindElement(By.XPath("//ol[@id='b_results']/li/h2/a")).Click();
-            Assert.IsTrue(driver.Title.Contains("Azure Pipelines"), "Verified title of the page");
+            //driver.FindElement(By.XPath("//ol[@id='b_results']/li/h2/a")).Click();
+
+            Assert.Equals(driver.FindElement(By.Id("title")).GetAttribute("textContent"), "Hello, world!");
 
         }
 
@@ -49,8 +51,9 @@ namespace TestingUI
         [TestInitialize()]
         public void SetupTest()
         {
-            appURL = "http://www.bing.com/";
-            string browser = "FireFox";
+            appURL = "http://localhost:5001";
+            //appURL = "https:google.ca";
+            string browser = "chrome";
             switch (browser)
             {
                 case "chrome":
